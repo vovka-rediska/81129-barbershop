@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ru">
   <head>
   <meta charset="utf-8">
@@ -6,71 +7,79 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
-      <div class="container clearfix">
-        <div class="index-logo">
-          <a class="index-logo" href="#"><img src="img/BORODINSKI_LOGO.png" width="100" height="50" alt="Барбершоп"></a>
-        </div>
-        <nav class="main-navigation">
-          <ul>
-            <li class="nav-list"><a class="nav-item" href="#">Информация</a></li>
-            <li class="nav-list"><a class="nav-item" href="#">Новости></a></li>
-            <li class="nav-list"><a class="nav-item" href="#">Прайс-лист></a></li>
-            <li class="nav-list"><a class="nav-item" href="#">Магазин></a></li>
-            <li class="nav-list"><a class="nav-item" href="#">Контакты></a></li>
+
+
+    <header class="main-header outline">
+      <div class="container clearfix outline">
+        <nav class="main-navigation ">
+
+          <ul class="header-menu">
+            <li><a class="index-logo" href="#"><img src="img/logo.png" width="130" height="35" alt="Барбершоп"></a></li>
+            <li ><a href="#">Информация</a></li>
+            <li ><a href="#">Новости</a></li>
+            <li ><a href="#">Прайс-лист</a></li>
+            <li ><a href="#">Магазин</a></li>
+            <li ><a href="#">Контакты</a></li>
           </ul>
         </nav>
         <div class="user-block">
-              <a class="login" href="#">Вход</a>
+          <a class="login" href="#">Вход</a>
         </div>
       </div>
+
     </header>
-    <div class="container">
+
+
+    <main class="container clearfix">
     <h1 class="page-title">Средства для ухода</h1>
     <div class="breadcrums">
-      <a class="breadcrums-link" href="#"> Главная</a>
-      <a class="breadcrums-link" href="#">Магазин</a>
-      <span class="current-page">Средство для ухода</span>
+      <ul>
+        <li><a class="breadcrums-link" href="#"> Главная</a></li>
+        <li><a class="breadcrums-link" href="#">Магазин</a></li>
+        <li> <span class="current-page">Средство для ухода</span></li>   
+      </ul>
+
     </div>
     <div class="makers-and-items">
-      <div class="makers-choice">
+      <div class="filter">
       <form action="#" method="post">
-        <p class="filter title">Производители</p>
-          <label class="filter-label">
-            <input class="filter-input" type="checkbox" name="makers" >Baxter of california
+        <p class="filter-title">Производители</p>
+        <p> <label class="filter-label">
+          <input class="filter-input" type="checkbox" name="makers" >Baxter of california</p>
           </label>
-          <label class="filter-label">
-            <input class="filter-input" type="checkbox" name="makers" >Mr Natty
+         <p> <label class="filter-label">
+            <input class="filter-input" type="checkbox" name="makers" >Mr Natty</p>
           </label>
-          <label class="filter-label">
-            <input class="filter-input" type="checkbox" name="makers" >Suavesito
+          <p><label class="filter-label">
+            <input class="filter-input" type="checkbox" name="makers" >Suavesito</p>
           </label>
             <label class="filter-label">
-          <input class="filter-input" type="checkbox" name="makers" >Malin+Goetz
+          <p><input class="filter-input" type="checkbox" name="makers" >Malin+Goetz</p>
           </label>
-          <label class="filter-label">
-            <input class="filter-input" type="checkbox" name="makers" >Murray's
+          <p><label class="filter-label">
+            <input class="filter-input" type="checkbox" name="makers" >Murray's</p>
           </label>
-          <label class="filter-label">
-            <input class="filter-input" type="checkbox" name="makers" >American Crue
+          <p><label class="filter-label">
+            <input class="filter-input" type="checkbox" name="makers" >American Crue</p>
           </label>
-        <p class="filter title">Группы товаров</p>
-          <label class="filter-label-2">
-            <input class="filter-input-round" type="checkbox" name="item-group">Бритвеннные принадлежности
+        <p class="filter-title">Группы товаров</p>
+          <p><label class="filter-label-2">
+            <input class="filter-input-round" type="radio" name="item">Бритвеннные принадлежности</p>
           </label>
-          <label class="filter-label-2">
-            <input class="filter-input-round" type="checkbox" name="item-group">Средства для ухода
+          <p><label class="filter-label-2">
+            <input class="filter-input-round" type="radio" name="item">Средства для ухода</p>
           </label>
-          <label class="filter-label-2">
-            <input class="filter-input-round" type="checkbox" name="item-group">Аксессуары
+          <p><label class="filter-label-2">
+            <input class="filter-input-round" type="radio" name="item">Аксессуары</p>
           </label>
             <input class="btn" type="submit" value="Показать">
         </form>
         </div>
-        <div class="catalog">
+
+        <div class="catalog container">
           <div class="catalog-item">
             <div class="img">
-              <img src="#" width="306" height="206" alt="Набор для путешествий">
+              <img src=img/item_photo1.jpg width="220" height="165" alt="Набор для путешествий">
             </div>
             <div class="text">
               <h3 class="name-item">Набор для путешествий <br> Barber of california </h3>
@@ -84,7 +93,7 @@
 
           <div class="catalog-item">
             <div class="img">
-              <img src="#" width="306" height="206" alt="Увлажняющий кондиционер">
+              <img src=img/item_photo2.jpg width="220" height="165" alt="Увлажняющий кондиционер">
             </div>
 
             <div class="text">
@@ -98,7 +107,7 @@
 
           <div class="catalog-item">
             <div class="img">
-                <img src="#" width="306" height="206" alt="Гель для волос">
+                <img src=img/item_photo3.jpg width="220" height="165" alt="Гель для волос">
             </div>
             <div class="text">
               <h3 class="name-item">Гель для волос <br>  "Suavecito"</h3>
@@ -111,10 +120,22 @@
 
           <div class="catalog-item">
             <div class="img">
-              <img src="#" width="306" height="206" alt="Глина для укладки волос">
+              <img src=img/item_photo4.jpg width="220" height="165" alt="Глина для укладки волос">
             </div>
             <div class="text">
               <h3 class="name-item">Глина для укладки волос <br> "American crew"</h3>
+              <div class="price-btn">
+                <b class="price"> 500 руб.</b>
+                <a class="btn" href="#">Купить </a>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <div class="img">
+              <img src=img/item_photo5.jpg width="220" height="165" alt="Глина для укладки волос">
+            </div>
+            <div class="text">
+              <h3 class="name-item">Гель для волос <br> "American crew"</h3>
               <div class="price-btn">
                 <b class="price"> 300 руб.</b>
                 <a class="btn" href="#">Купить </a>
@@ -124,7 +145,7 @@
 
           <div class="catalog-item">
             <div class="img">
-              <img src="#" width="306" height="206" alt="Набор для бритья">
+              <img src=img/item_photo6.jpg width="220" height="165" alt="Набор для бритья">
             </div>
             <div class="text">
               <h3 class="name-item">Набор для бритья <br>"Baxter of california"</h3>
@@ -134,9 +155,11 @@
             </div>
             </div>
           </div>
+
+
         </div>
         </div>
-    </div>
+    </main>
 
 
 
