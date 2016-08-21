@@ -1,12 +1,16 @@
 
 body {
-  font-size: 18px;
+
+  font-size: 14px;
   line-height: 18px;
   color: #000000;
   font-weight: bold;
   font-family:  'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  background: #000000 url(img/bg.jpg) no-repeat center top;
 
-}
+  }
+
 h1 {
   font-size: 30px;
   line-height: 42px;
@@ -25,12 +29,34 @@ a {
   text-decoration: none;
 }
 .main-header {
-  background-color: black;
+  margin-bottom: 60px;
   }
+
 
 .container {
   width: 940px;
   margin: auto;
+
+}
+.header-menu li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.header-menu a {
+  padding: 20px 25px;
+  display: block;
+  color: white;
+}
+.header-menu a:hover {
+  background: #242424;
+}
+.user-block a {
+  color: white;
+}
+.breadcrums li{
+  margin-right: 10px;
+  display: inline-block;
 
 }
 .main-navigation {
@@ -49,10 +75,7 @@ a {
   display: table;
   clear: both;
 }
-.main-header {
-  margin-bottom: 60px;
 
-}
 .breadcrums {
   margin-bottom: 60px;
 }
@@ -95,22 +118,7 @@ a {
   width: 200px;
 }
 
-.header-menu li {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 20px;
-}
-.header-menu a {
-  color: white;
-}
-.user-block a {
-  color: white;
-}
-.breadcrums li{
-  margin-right: 10px;
-  display: inline-block;
 
-}
 .left-column {
   width: 500px;
   float: left;
